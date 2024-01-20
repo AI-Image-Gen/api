@@ -1,6 +1,6 @@
 # 🎉 AI img gen API
 
-## 🍹 API for managing github actions runs, can be found [here]()
+## 🍹 API for managing github actions runs, can be found [on glitch]()
 
 **For usage head to `USAGE.md`**
 
