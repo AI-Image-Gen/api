@@ -1,0 +1,17 @@
+name: Glitch sync
+
+on: [push]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone repository
+      uses: actions/checkout@v4
+
+    - name: Sync
+      uses: kanadgupta/glitch-sync@main
+      with:
+        auth-token: '${{ secrets.authToken }}'
+        project-id: '${{ secrets.projectId }}'
